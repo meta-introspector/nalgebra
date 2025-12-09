@@ -175,9 +175,9 @@ trybuild = "1.0.90"
 
 cool_asserts = "2.0.3"
 
-[workspace]
-members = ["nalgebra-lapack", "nalgebra-glm", "nalgebra-sparse", "nalgebra-macros"]
-resolver = "2"
+#[workspace] # Commented out to resolve multiple workspace roots error
+# members = ["nalgebra-lapack", "nalgebra-glm", "nalgebra-sparse", "nalgebra-macros"]
+# resolver = "2"
 
 [[example]]
 name = "matrixcompare"
